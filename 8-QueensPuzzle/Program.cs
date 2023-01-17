@@ -14,10 +14,10 @@ namespace _8_QueensPuzzle
         {
             
             char[][] result = new char[size][];
-            for (int i = 0; i < size; ++i)
+            for (int i = 0; i < size; i++)
             {
                 result[i] = new char[size];
-                for (int j = 0; j < size; ++j)
+                for (int j = 0; j < size; j++)
                 {
                     result[i][j] = '.';
                 }
