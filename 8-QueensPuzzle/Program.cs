@@ -64,7 +64,7 @@ namespace _8_QueensPuzzle
                 }
             }
 
-            for (int i = row - 1, j = col + 1; i >= 0 && j < result.Length; --i, ++j)
+            for (int i = row - 1, j = col + 1; i >= 0 && j < result.Length; i--, j++)
             {
                 if (result[i][j] == 'Q')
                 {
